@@ -1,0 +1,94 @@
+{
+  "seasons": [
+    {
+      "season": "2014/15", "club": "Real Madrid", "competition": "La Liga",
+      "team_fk_attempts": 68, "ronaldo_fk_attempts": 41, "ronaldo_share_pct": 0.603,
+      "team_fk_goals": 7, "ronaldo_fk_goals": 3,
+      "team_fk_xg": 5.81, "ronaldo_fk_xg": 3.42,
+      "non_ronaldo_attempts": 27, "non_ronaldo_goals": 4, "non_ronaldo_xg": 2.39,
+      "non_ronaldo_conversion_rate": 0.148,
+      "ronaldo_conversion_rate": 0.073,
+      "net_xg_vs_league_avg": -1.12
+    },
+    {
+      "season": "2015/16", "club": "Real Madrid", "competition": "La Liga",
+      "team_fk_attempts": 71, "ronaldo_fk_attempts": 44, "ronaldo_share_pct": 0.620,
+      "team_fk_goals": 5, "ronaldo_fk_goals": 2,
+      "team_fk_xg": 6.04, "ronaldo_fk_xg": 3.71,
+      "non_ronaldo_attempts": 27, "non_ronaldo_goals": 3, "non_ronaldo_xg": 2.33,
+      "non_ronaldo_conversion_rate": 0.111,
+      "ronaldo_conversion_rate": 0.045,
+      "net_xg_vs_league_avg": -2.08
+    },
+    {
+      "season": "2016/17", "club": "Real Madrid", "competition": "La Liga",
+      "team_fk_attempts": 62, "ronaldo_fk_attempts": 38, "ronaldo_share_pct": 0.613,
+      "team_fk_goals": 4, "ronaldo_fk_goals": 2,
+      "team_fk_xg": 5.28, "ronaldo_fk_xg": 3.18,
+      "non_ronaldo_attempts": 24, "non_ronaldo_goals": 2, "non_ronaldo_xg": 2.10,
+      "non_ronaldo_conversion_rate": 0.083,
+      "ronaldo_conversion_rate": 0.053,
+      "net_xg_vs_league_avg": -1.01
+    },
+    {
+      "season": "2017/18", "club": "Real Madrid", "competition": "La Liga",
+      "team_fk_attempts": 58, "ronaldo_fk_attempts": 36, "ronaldo_share_pct": 0.621,
+      "team_fk_goals": 3, "ronaldo_fk_goals": 1,
+      "team_fk_xg": 4.94, "ronaldo_fk_xg": 2.97,
+      "non_ronaldo_attempts": 22, "non_ronaldo_goals": 2, "non_ronaldo_xg": 1.97,
+      "non_ronaldo_conversion_rate": 0.091,
+      "ronaldo_conversion_rate": 0.028,
+      "net_xg_vs_league_avg": -2.21
+    },
+    {
+      "season": "2018/19", "club": "Juventus", "competition": "Serie A",
+      "team_fk_attempts": 54, "ronaldo_fk_attempts": 30, "ronaldo_share_pct": 0.556,
+      "team_fk_goals": 7, "ronaldo_fk_goals": 2,
+      "team_fk_xg": 4.34, "ronaldo_fk_xg": 2.41,
+      "non_ronaldo_attempts": 24, "non_ronaldo_goals": 5, "non_ronaldo_xg": 1.93,
+      "non_ronaldo_conversion_rate": 0.208,
+      "ronaldo_conversion_rate": 0.067,
+      "net_xg_vs_league_avg": -0.48
+    },
+    {
+      "season": "2019/20", "club": "Juventus", "competition": "Serie A",
+      "team_fk_attempts": 48, "ronaldo_fk_attempts": 27, "ronaldo_share_pct": 0.563,
+      "team_fk_goals": 4, "ronaldo_fk_goals": 1,
+      "team_fk_xg": 3.86, "ronaldo_fk_xg": 2.12,
+      "non_ronaldo_attempts": 21, "non_ronaldo_goals": 3, "non_ronaldo_xg": 1.74,
+      "non_ronaldo_conversion_rate": 0.143,
+      "ronaldo_conversion_rate": 0.037,
+      "net_xg_vs_league_avg": -1.44
+    },
+    {
+      "season": "2020/21", "club": "Juventus", "competition": "Serie A",
+      "team_fk_attempts": 44, "ronaldo_fk_attempts": 24, "ronaldo_share_pct": 0.545,
+      "team_fk_goals": 3, "ronaldo_fk_goals": 0,
+      "team_fk_xg": 3.54, "ronaldo_fk_xg": 1.88,
+      "non_ronaldo_attempts": 20, "non_ronaldo_goals": 3, "non_ronaldo_xg": 1.66,
+      "non_ronaldo_conversion_rate": 0.150,
+      "ronaldo_conversion_rate": 0.000,
+      "net_xg_vs_league_avg": -1.88
+    },
+    {
+      "season": "2021/22", "club": "Manchester United", "competition": "Premier League",
+      "team_fk_attempts": 38, "ronaldo_fk_attempts": 16, "ronaldo_share_pct": 0.421,
+      "team_fk_goals": 2, "ronaldo_fk_goals": 0,
+      "team_fk_xg": 3.06, "ronaldo_fk_xg": 1.21,
+      "non_ronaldo_attempts": 22, "non_ronaldo_goals": 2, "non_ronaldo_xg": 1.85,
+      "non_ronaldo_conversion_rate": 0.091,
+      "ronaldo_conversion_rate": 0.000,
+      "net_xg_vs_league_avg": -1.21
+    }
+  ],
+  "summary": {
+    "xg_era_seasons": 8,
+    "total_ronaldo_attempts": 256,
+    "total_ronaldo_goals": 11,
+    "total_ronaldo_xg": 20.90,
+    "total_goals_minus_xg": -9.90,
+    "avg_ronaldo_share_pct": 0.568,
+    "avg_net_xg_vs_league_avg_per_season": -1.43,
+    "interpretation": "Across the xG era, Ronaldo underperformed his own xG by 9.90 goals while taking 56.8% of his teams' direct free kicks. The league-average taker in the same positions would have been expected to add approximately 1.43 more goals per season."
+  }
+}

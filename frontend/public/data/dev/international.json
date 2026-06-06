@@ -1,0 +1,29 @@
+{
+  "career": {
+    "total_caps": 212,
+    "total_goals": 135,
+    "direct_fk_attempts": 88,
+    "direct_fk_goals": 8,
+    "direct_fk_on_target": 24,
+    "conversion_rate": 0.091,
+    "on_target_rate": 0.273,
+    "deliveries": 19,
+    "delivery_goal_assists": 2,
+    "xg_available": false,
+    "data_note": "International data relies on FBRef and WhoScored. No Understat coverage for international fixtures."
+  },
+  "by_tournament": [
+    { "tournament": "FIFA World Cup",             "tournaments_played": 5, "attempts": 18, "goals": 1, "conversion_rate": 0.056, "on_target_rate": 0.222 },
+    { "tournament": "UEFA European Championship", "tournaments_played": 5, "attempts": 22, "goals": 3, "conversion_rate": 0.136, "on_target_rate": 0.318 },
+    { "tournament": "UEFA Nations League",        "tournaments_played": 3, "attempts": 12, "goals": 1, "conversion_rate": 0.083, "on_target_rate": 0.250 },
+    { "tournament": "World Cup Qualifying",       "tournaments_played": 5, "attempts": 14, "goals": 1, "conversion_rate": 0.071, "on_target_rate": 0.286 },
+    { "tournament": "Euro Qualifying",            "tournaments_played": 4, "attempts": 12, "goals": 1, "conversion_rate": 0.083, "on_target_rate": 0.250 },
+    { "tournament": "Friendlies / Other",         "tournaments_played": null, "attempts": 10, "goals": 1, "conversion_rate": 0.100, "on_target_rate": 0.300 }
+  ],
+  "vs_club_record": {
+    "international_conversion_rate": 0.091,
+    "club_conversion_rate": 0.082,
+    "difference": 0.009,
+    "interpretation": "Ronaldo's international conversion rate is marginally higher than his club rate, though the sample size is smaller."
+  }
+}

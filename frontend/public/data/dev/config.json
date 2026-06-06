@@ -1,0 +1,106 @@
+{
+  "phases": [
+    {
+      "phase_id": 1,
+      "label": "Man Utd (early)",
+      "club": "manchester_united",
+      "start_year": 2003,
+      "end_year": 2009,
+      "technique": "swerve_power",
+      "xg_available": false,
+      "data_note": "Pre-xG era. Secondary sources only."
+    },
+    {
+      "phase_id": 2,
+      "label": "Real Madrid (early)",
+      "club": "real_madrid",
+      "start_year": 2009,
+      "end_year": 2014,
+      "technique": "knuckleball_transition",
+      "xg_available": false,
+      "data_note": "Pre-Understat. WhoScored and FBRef coverage."
+    },
+    {
+      "phase_id": 3,
+      "label": "Real Madrid (late)",
+      "club": "real_madrid",
+      "start_year": 2014,
+      "end_year": 2018,
+      "technique": "knuckleball_established",
+      "xg_available": true,
+      "data_note": "Full Understat coverage from 2014/15."
+    },
+    {
+      "phase_id": 4,
+      "label": "Juventus",
+      "club": "juventus",
+      "start_year": 2018,
+      "end_year": 2021,
+      "technique": "knuckleball_reliance",
+      "xg_available": true,
+      "data_note": "Full Understat coverage."
+    },
+    {
+      "phase_id": 5,
+      "label": "Man Utd (return)",
+      "club": "manchester_united",
+      "start_year": 2021,
+      "end_year": 2022,
+      "technique": "knuckleball_declining",
+      "xg_available": true,
+      "data_note": "Full Understat coverage."
+    },
+    {
+      "phase_id": 6,
+      "label": "Al-Nassr",
+      "club": "al_nassr",
+      "start_year": 2023,
+      "end_year": null,
+      "technique": "knuckleball_saudi",
+      "xg_available": false,
+      "data_note": "SofaScore primary. No Understat."
+    }
+  ],
+  "zones": [
+    { "zone_id": "Z1", "label": "Central preferred",     "is_ronaldo_preferred": true,  "description": "18-25m, central" },
+    { "zone_id": "Z2", "label": "Central close",         "is_ronaldo_preferred": false, "description": "Within 18m, central" },
+    { "zone_id": "Z3", "label": "Central long",          "is_ronaldo_preferred": false, "description": "25-35m, central" },
+    { "zone_id": "Z4", "label": "Semi-central preferred","is_ronaldo_preferred": true,  "description": "18-25m, slight angle" },
+    { "zone_id": "Z5", "label": "Wide preferred",        "is_ronaldo_preferred": false, "description": "18-25m, wide angle" },
+    { "zone_id": "Z6", "label": "Other",                 "is_ronaldo_preferred": false, "description": "All other zones" }
+  ],
+  "peer_groups": {
+    "elite_specialists": [
+      { "player_id": "messi",       "player_name": "Lionel Messi" },
+      { "player_id": "juninho",     "player_name": "Juninho Pernambucano" },
+      { "player_id": "pirlo",       "player_name": "Andrea Pirlo" },
+      { "player_id": "beckham",     "player_name": "David Beckham" },
+      { "player_id": "eriksen",     "player_name": "Christian Eriksen" },
+      { "player_id": "kroos",       "player_name": "Toni Kroos" },
+      { "player_id": "calhanoglu",  "player_name": "Hakan Calhanoglu" },
+      { "player_id": "neymar",      "player_name": "Neymar" }
+    ],
+    "club_teammates": [
+      { "player_id": "kroos",           "player_name": "Toni Kroos",          "club": "real_madrid" },
+      { "player_id": "pjanic",          "player_name": "Miralem Pjanic",      "club": "juventus" },
+      { "player_id": "dybala",          "player_name": "Paulo Dybala",        "club": "juventus" },
+      { "player_id": "bruno_fernandes", "player_name": "Bruno Fernandes",     "club": "manchester_united" }
+    ]
+  },
+  "sources": [
+    { "source_id": "understat",       "label": "Understat",             "has_xg": true,  "coverage_from": "2014/15", "coverage_gaps": ["No UCL", "No Saudi Pro League"] },
+    { "source_id": "fbref",           "label": "FBRef",                 "has_xg": true,  "coverage_from": "2002/03", "coverage_gaps": ["xG from 2017/18 only"] },
+    { "source_id": "whoscored",       "label": "WhoScored",             "has_xg": false, "coverage_from": "2007/08", "coverage_gaps": ["No xG", "No UCL"] },
+    { "source_id": "sofascore",       "label": "SofaScore",             "has_xg": true,  "coverage_from": "2012/13", "coverage_gaps": ["xG reliability varies"] },
+    { "source_id": "transfermarkt",   "label": "Transfermarkt",         "has_xg": false, "coverage_from": "1990s",   "coverage_gaps": ["No shot-type breakdown"] },
+    { "source_id": "statsbomb",       "label": "StatsBomb Open Data",   "has_xg": true,  "coverage_from": "varies",  "coverage_gaps": ["Select competitions only"] },
+    { "source_id": "football_data_uk","label": "football-data.co.uk",   "has_xg": false, "coverage_from": "1993/94", "coverage_gaps": ["Match results only"] }
+  ],
+  "methodology": {
+    "preferred_zone_definition": "18-25m from goal, within 30 degrees of centre",
+    "xg_cutoff_season": "2014/15",
+    "pre_xg_note": "Phases 1 and 2 have no xG data. Conversion rate and volume metrics only.",
+    "saudi_note": "Phase 6 data quality is reduced. SofaScore is primary source. Treat with caution.",
+    "deduplication_note": "Where a shot appears in multiple sources, Understat is preferred, then StatsBomb, then FBRef."
+  }
+}

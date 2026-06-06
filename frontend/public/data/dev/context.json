@@ -1,0 +1,31 @@
+{
+  "by_scoreline": [
+    { "state": "winning",  "label": "Team winning",  "attempts": 148, "goals": 14, "conversion_rate": 0.095, "on_target_rate": 0.270, "xg_era_attempts": 58,  "xg_era_xg": 4.78, "xg_era_goals": 3, "xg_era_goals_minus_xg": -1.78 },
+    { "state": "drawing",  "label": "Score level",   "attempts": 281, "goals": 24, "conversion_rate": 0.085, "on_target_rate": 0.263, "xg_era_attempts": 112, "xg_era_xg": 9.21, "xg_era_goals": 5, "xg_era_goals_minus_xg": -4.21 },
+    { "state": "losing",   "label": "Team losing",   "attempts": 195, "goals": 13, "conversion_rate": 0.067, "on_target_rate": 0.246, "xg_era_attempts": 86,  "xg_era_xg": 6.91, "xg_era_goals": 3, "xg_era_goals_minus_xg": -3.91 }
+  ],
+  "by_minute": [
+    { "bucket": "0-15",  "attempts": 42,  "goals": 4, "conversion_rate": 0.095, "on_target_rate": 0.262 },
+    { "bucket": "16-30", "attempts": 88,  "goals": 8, "conversion_rate": 0.091, "on_target_rate": 0.261 },
+    { "bucket": "31-45", "attempts": 102, "goals": 9, "conversion_rate": 0.088, "on_target_rate": 0.265 },
+    { "bucket": "46-60", "attempts": 94,  "goals": 8, "conversion_rate": 0.085, "on_target_rate": 0.255 },
+    { "bucket": "61-75", "attempts": 118, "goals": 9, "conversion_rate": 0.076, "on_target_rate": 0.254 },
+    { "bucket": "76-90", "attempts": 134, "goals": 9, "conversion_rate": 0.067, "on_target_rate": 0.254 },
+    { "bucket": "90+",   "attempts": 46,  "goals": 4, "conversion_rate": 0.087, "on_target_rate": 0.261 }
+  ],
+  "by_match_importance": [
+    { "type": "knockout",  "label": "Knockout / UCL",  "attempts": 88,  "goals": 9,  "conversion_rate": 0.102, "on_target_rate": 0.284 },
+    { "type": "league",    "label": "League",           "attempts": 478, "goals": 38, "conversion_rate": 0.079, "on_target_rate": 0.255 },
+    { "type": "group",     "label": "Group stage",      "attempts": 42,  "goals": 3,  "conversion_rate": 0.071, "on_target_rate": 0.262 },
+    { "type": "cup",       "label": "Domestic cup",     "attempts": 16,  "goals": 1,  "conversion_rate": 0.063, "on_target_rate": 0.250 }
+  ],
+  "by_score_differential": [
+    { "diff": -3,  "label": "Losing by 3+", "attempts": 18,  "goals": 1, "conversion_rate": 0.056 },
+    { "diff": -2,  "label": "Losing by 2",  "attempts": 44,  "goals": 3, "conversion_rate": 0.068 },
+    { "diff": -1,  "label": "Losing by 1",  "attempts": 133, "goals": 9, "conversion_rate": 0.068 },
+    { "diff": 0,   "label": "Level",        "attempts": 281, "goals": 24,"conversion_rate": 0.085 },
+    { "diff": 1,   "label": "Winning by 1", "attempts": 98,  "goals": 9, "conversion_rate": 0.092 },
+    { "diff": 2,   "label": "Winning by 2", "attempts": 36,  "goals": 4, "conversion_rate": 0.111 },
+    { "diff": 3,   "label": "Winning by 3+","attempts": 14,  "goals": 1, "conversion_rate": 0.071 }
+  ]
+}

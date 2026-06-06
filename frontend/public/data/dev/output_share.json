@@ -1,0 +1,28 @@
+{
+  "ronaldo_career": {
+    "total_career_goals": 746,
+    "direct_fk_goals": 51,
+    "fk_goals_as_pct_of_total": 0.068,
+    "xg_era_total_goals": 218,
+    "xg_era_fk_goals": 11,
+    "xg_era_fk_pct": 0.050
+  },
+  "by_phase": [
+    { "phase_id": 1, "label": "Man Utd (early)",    "total_goals": 118, "fk_goals": 14, "fk_pct": 0.119, "fk_attempts_per_match": 1.8 },
+    { "phase_id": 2, "label": "Real Madrid (early)", "total_goals": 209, "fk_goals": 22, "fk_pct": 0.105, "fk_attempts_per_match": 2.4 },
+    { "phase_id": 3, "label": "Real Madrid (late)",  "total_goals": 170, "fk_goals": 8,  "fk_pct": 0.047, "fk_attempts_per_match": 2.2 },
+    { "phase_id": 4, "label": "Juventus",            "total_goals": 101, "fk_goals": 3,  "fk_pct": 0.030, "fk_attempts_per_match": 1.6 },
+    { "phase_id": 5, "label": "Man Utd (return)",    "total_goals": 24,  "fk_goals": 0,  "fk_pct": 0.000, "fk_attempts_per_match": 1.1 },
+    { "phase_id": 6, "label": "Al-Nassr",            "total_goals": 82,  "fk_goals": 4,  "fk_pct": 0.049, "fk_attempts_per_match": 1.4 }
+  ],
+  "vs_peers": [
+    { "player_id": "ronaldo",     "player_name": "Cristiano Ronaldo", "total_goals": 746, "fk_goals": 51, "fk_pct": 0.068, "fk_attempts_per_match": 1.9 },
+    { "player_id": "messi",       "player_name": "Lionel Messi",       "total_goals": 848, "fk_goals": 62, "fk_pct": 0.073, "fk_attempts_per_match": 1.4 },
+    { "player_id": "calhanoglu",  "player_name": "Hakan Calhanoglu",   "total_goals": 98,  "fk_goals": 28, "fk_pct": 0.286, "fk_attempts_per_match": 1.8 },
+    { "player_id": "eriksen",     "player_name": "Christian Eriksen",   "total_goals": 92,  "fk_goals": 17, "fk_pct": 0.185, "fk_attempts_per_match": 1.6 },
+    { "player_id": "kroos",       "player_name": "Toni Kroos",          "total_goals": 78,  "fk_goals": 12, "fk_pct": 0.154, "fk_attempts_per_match": 0.9 },
+    { "player_id": "neymar",      "player_name": "Neymar",              "total_goals": 423, "fk_goals": 18, "fk_pct": 0.043, "fk_attempts_per_match": 1.2 },
+    { "player_id": "pirlo",       "player_name": "Andrea Pirlo",        "total_goals": 82,  "fk_goals": 28, "fk_pct": 0.341, "fk_attempts_per_match": 1.4 }
+  ],
+  "data_note": "Total career goals include all competitions. Free kick % reflects direct free kick goals only — penalties and open play excluded."
+}

@@ -1,0 +1,31 @@
+{
+  "career_totals": {
+    "total_deliveries": 122,
+    "goal_assists": 14,
+    "shot_created": 38,
+    "cleared": 52,
+    "incomplete": 18,
+    "assist_rate": 0.115,
+    "shot_creation_rate": 0.311,
+    "total_xa": 9.84,
+    "xg_era_deliveries": 48,
+    "xg_era_xa": 3.82,
+    "xg_era_assists": 5,
+    "xg_era_assists_minus_xa": 1.18
+  },
+  "by_phase": [
+    { "phase_id": 1, "label": "Man Utd (early)",    "deliveries": 31, "goal_assists": 4, "shot_created": 9,  "assist_rate": 0.129, "total_xa": null, "xg_available": false },
+    { "phase_id": 2, "label": "Real Madrid (early)", "deliveries": 38, "goal_assists": 5, "shot_created": 12, "assist_rate": 0.132, "total_xa": null, "xg_available": false },
+    { "phase_id": 3, "label": "Real Madrid (late)",  "deliveries": 29, "goal_assists": 3, "shot_created": 9,  "assist_rate": 0.103, "total_xa": 2.28, "xg_available": true  },
+    { "phase_id": 4, "label": "Juventus",            "deliveries": 14, "goal_assists": 1, "shot_created": 5,  "assist_rate": 0.071, "total_xa": 1.12, "xg_available": true  },
+    { "phase_id": 5, "label": "Man Utd (return)",    "deliveries": 3,  "goal_assists": 0, "shot_created": 1,  "assist_rate": 0.000, "total_xa": 0.24, "xg_available": true  },
+    { "phase_id": 6, "label": "Al-Nassr",            "deliveries": 7,  "goal_assists": 1, "shot_created": 2,  "assist_rate": 0.143, "total_xa": null, "xg_available": false }
+  ],
+  "outcome_breakdown": [
+    { "outcome": "goal_assist", "count": 14, "pct": 0.115 },
+    { "outcome": "shot_created","count": 38, "pct": 0.311 },
+    { "outcome": "cleared",     "count": 52, "pct": 0.426 },
+    { "outcome": "incomplete",  "count": 18, "pct": 0.148 }
+  ],
+  "data_note": "Delivery counts include only free kicks where Ronaldo crossed or passed rather than shooting directly. xA available for phases 3-5 only."
+}
